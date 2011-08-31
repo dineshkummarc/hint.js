@@ -57,6 +57,7 @@
 					console.log(error.line + ':' + error.character + ' -> ' + error.reason + ' -> ' + error.evidence);
 				}
 			}
+			process.exit(1);
 		}
 
 		// print globals
